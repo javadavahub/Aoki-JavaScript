@@ -1,8 +1,11 @@
 const array = [
   ["a", "b", "c"],
-  [1, 2, 3],
+  ["d", "e", "f"],
 ];
 console.log(array);
+// 実行結果：(2) [Array(3), Array(3)]
+console.log(array[1][2]);
+// 実行結果：f
 
 // console
 //
@@ -11,7 +14,7 @@ console.log(array);
 // 1: (3) [1, 2, 3]
 // length: 2
 // __proto__: Array(0)
-
+////////////////////////////////
 // (2) [Array(3), Array(3)]
 // 0: Array(3)
 // 0: "a"
