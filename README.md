@@ -34,7 +34,7 @@
     return int3;
   }
   const total = sumPrice(3, 5);
-  console.log(tatal);
+  console.log(total);
   ```
 
 - すべてオブジェクト
